@@ -1,12 +1,14 @@
 package ru.job4j.condition;
 
 public class SqArea {
-    public static double square (double p, double k){
-        double rsl = ((p / (2 * (k + 1))) * k) * (p / (2 * (k + 1)));
+    public static double square (double p, double k) {
+        double h = p / (2 * (k + 1));
+        double L = h * k;
+        double rsl = L * h;
         return  rsl;
     }
 
-    public static void main (String[] args){
+    public static void main (String[] args) {
         double result = SqArea.square(4, 1);
         System.out.println(" p = 4, k = 1, s = 1, real = " + result);
 
