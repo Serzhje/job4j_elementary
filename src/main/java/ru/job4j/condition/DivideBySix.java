@@ -21,10 +21,9 @@ public class DivideBySix {
     }
 
     public static void main(String[] args) {
-
-        System.out.println(DivideBySix.checkNumber(69)); // на три
-        System.out.println(DivideBySix.checkNumber(66)); // на шесть
-        System.out.println(DivideBySix.checkNumber(56)); // на два
-        System.out.println(DivideBySix.checkNumber(47)); // не делится
+        System.out.println(DivideBySix.checkNumber(69));
+        System.out.println(DivideBySix.checkNumber(66));
+        System.out.println(DivideBySix.checkNumber(56));
+        System.out.println(DivideBySix.checkNumber(47));
     }
 }

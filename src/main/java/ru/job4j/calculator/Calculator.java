@@ -1,7 +1,5 @@
 package ru.job4j.calculator;
 
-import java.awt.*;
-
 public class Calculator {
 
     public static void main(String[] args) {
