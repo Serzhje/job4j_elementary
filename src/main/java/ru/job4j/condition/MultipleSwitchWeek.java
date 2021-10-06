@@ -2,7 +2,6 @@ package ru.job4j.condition;
 
 public class MultipleSwitchWeek {
     public static int numberOfDay(String name) {
-
         return switch (name) {
             case "Понедельник", "Monday" -> 1;
             case "Вторник", "Tuesday" -> 2;
@@ -16,7 +15,6 @@ public class MultipleSwitchWeek {
     }
 
     public static void main(String[] args) {
-
         String name = "Friday";
         System.out.println(MultipleSwitchWeek.numberOfDay(name));
     }
